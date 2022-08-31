@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+*{
+  font-family: PT Mono;
+}
+body{
+  background: rgb(148,179,162);
+  background: linear-gradient(90deg, rgba(148,179,162,1) 0%, rgba(172,203,164,1) 0%, rgba(23,219,20,1) 100%); 
+}
+h1{
+  font-weight: bold;
+  font-family: Creepster;
+  font-size: 40px;
+}
+h4{
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+h1::after{
+  content: 'Pesquisador de Personagem';
+  font-family: PT Mono;
+  font-size: 12px;
+  margin-left: 20px;
+  font-weight: lighter;
+  text-align: center;
+  width: 200px;
+  height: 2px;
+  display: block;
+}
+
+table {
+  width: 550px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+
+}
+
+thead > tr > th {
+  background-color: #b470db;
+  padding: 5px;
+}
+
+tbody > tr {
+  border-bottom: 1px solid black;
+
+}
+
+.filter-icon {
+  position: relative;
+  right: 30px;
+  cursor: pointer;
+}
+
+.field-component {
+  margin-left: 200px;
+}
+.ant-pagination-item-link {
+  background-color: #d6bae6 !important;
+}
+.ant-pagination-item {
+  background-color: #d6bae6 !important;
+}
+tr {
+  background-color: white;
+  transition: ease-out 0.1s;
+}
+
+tr:hover {
+  background-color: #d6bae6;
+}
+
+img {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+}
+
+h2 {
+  margin-left: 100px;
+}
